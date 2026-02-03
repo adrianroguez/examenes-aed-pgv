@@ -1,0 +1,5 @@
+/home/portablepc/Escritorio/recuperacionpgv/segunda/cliente-noticias-jwt-tests/src/test/java/com/docencia/pgv/cliente/ApiClient.java
+/home/portablepc/Escritorio/recuperacionpgv/segunda/cliente-noticias-jwt-tests/src/test/java/com/docencia/pgv/cliente/GradeTracker.java
+/home/portablepc/Escritorio/recuperacionpgv/segunda/cliente-noticias-jwt-tests/src/test/java/com/docencia/pgv/cliente/PublicNoticiasCrudTest.java
+/home/portablepc/Escritorio/recuperacionpgv/segunda/cliente-noticias-jwt-tests/src/test/java/com/docencia/pgv/cliente/SecuredNoticiasCrudTest.java
+/home/portablepc/Escritorio/recuperacionpgv/segunda/cliente-noticias-jwt-tests/src/test/java/com/docencia/pgv/cliente/SecuredRequiresTokenTest.java

@@ -1,0 +1,13 @@
+/home/portablepc/Escritorio/recuperacionaed/primera/ejercicio-1-evaluacion-aed/src/main/java/com/docencia/objetos/DemoApplication.java
+/home/portablepc/Escritorio/recuperacionaed/primera/ejercicio-1-evaluacion-aed/src/main/java/com/docencia/objetos/config/H2ServerConfig.java
+/home/portablepc/Escritorio/recuperacionaed/primera/ejercicio-1-evaluacion-aed/src/main/java/com/docencia/objetos/domain/Alumno.java
+/home/portablepc/Escritorio/recuperacionaed/primera/ejercicio-1-evaluacion-aed/src/main/java/com/docencia/objetos/domain/Rol.java
+/home/portablepc/Escritorio/recuperacionaed/primera/ejercicio-1-evaluacion-aed/src/main/java/com/docencia/objetos/repo/AlumnoRepositoryJpaAdapter.java
+/home/portablepc/Escritorio/recuperacionaed/primera/ejercicio-1-evaluacion-aed/src/main/java/com/docencia/objetos/repo/interfaces/AlumnoRepository.java
+/home/portablepc/Escritorio/recuperacionaed/primera/ejercicio-1-evaluacion-aed/src/main/java/com/docencia/objetos/repo/interfaces/RolRepository.java
+/home/portablepc/Escritorio/recuperacionaed/primera/ejercicio-1-evaluacion-aed/src/main/java/com/docencia/objetos/repo/jpa/AlumnoEntity.java
+/home/portablepc/Escritorio/recuperacionaed/primera/ejercicio-1-evaluacion-aed/src/main/java/com/docencia/objetos/repo/jpa/AlumnoJpaRepository.java
+/home/portablepc/Escritorio/recuperacionaed/primera/ejercicio-1-evaluacion-aed/src/main/java/com/docencia/objetos/repo/jpa/RolEntity.java
+/home/portablepc/Escritorio/recuperacionaed/primera/ejercicio-1-evaluacion-aed/src/main/java/com/docencia/objetos/repo/jpa/RolJpaRepository.java
+/home/portablepc/Escritorio/recuperacionaed/primera/ejercicio-1-evaluacion-aed/src/main/java/com/docencia/objetos/repo/json/RolJsonFileRepository.java
+/home/portablepc/Escritorio/recuperacionaed/primera/ejercicio-1-evaluacion-aed/src/main/java/com/docencia/objetos/service/AlumnoService.java

@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+Test set: com.docencia.restejercicio.service.UserServiceTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.020 s <<< FAILURE! -- in com.docencia.restejercicio.service.UserServiceTest
+com.docencia.restejercicio.service.UserServiceTest.getAllUsersTest -- Time elapsed: 0.008 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because "users" is null
+	at com.docencia.restejercicio.service.UserServiceTest.getAllUsersTest(UserServiceTest.java:29)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+com.docencia.restejercicio.service.UserServiceTest.getByIdExistingUserTest -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.List.get(int)" because the return value of "com.docencia.restejercicio.service.UserService.getAll()" is null
+	at com.docencia.restejercicio.service.UserServiceTest.getByIdExistingUserTest(UserServiceTest.java:34)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+com.docencia.restejercicio.service.UserServiceTest.updateExistingUserTest -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.List.get(int)" because the return value of "com.docencia.restejercicio.service.UserService.getAll()" is null
+	at com.docencia.restejercicio.service.UserServiceTest.updateExistingUserTest(UserServiceTest.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+com.docencia.restejercicio.service.UserServiceTest.createNewUserTest -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.docencia.restejercicio.model.User.getId()" because "created" is null
+	at com.docencia.restejercicio.service.UserServiceTest.createNewUserTest(UserServiceTest.java:45)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+com.docencia.restejercicio.service.UserServiceTest.deleteUserTest -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.List.get(int)" because the return value of "com.docencia.restejercicio.service.UserService.getAll()" is null
+	at com.docencia.restejercicio.service.UserServiceTest.deleteUserTest(UserServiceTest.java:65)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+

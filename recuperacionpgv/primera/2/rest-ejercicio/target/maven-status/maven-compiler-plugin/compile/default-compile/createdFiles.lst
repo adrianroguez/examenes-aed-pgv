@@ -1,0 +1,6 @@
+com/docencia/restejercicio/model/User.class
+com/docencia/restejercicio/repository/TaskRepository.class
+com/docencia/restejercicio/repository/UserRepository.class
+com/docencia/restejercicio/service/UserService.class
+com/docencia/restejercicio/model/Task.class
+com/docencia/restejercicio/service/TaskService.class

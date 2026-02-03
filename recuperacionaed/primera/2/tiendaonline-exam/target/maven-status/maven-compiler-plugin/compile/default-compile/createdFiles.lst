@@ -1,0 +1,15 @@
+com/tiendaonline/service/PedidoService.class
+com/tiendaonline/TiendaOnlineApplication.class
+com/tiendaonline/model/ClienteDetalles.class
+com/tiendaonline/model/Cliente.class
+com/tiendaonline/repository/ClienteDetallesRepository.class
+com/tiendaonline/service/ClienteDetallesService.class
+com/tiendaonline/service/interfaces/IPedidoService.class
+com/tiendaonline/controller/ClienteController.class
+com/tiendaonline/service/ClienteService.class
+com/tiendaonline/repository/ClienteRepository.class
+com/tiendaonline/service/interfaces/IClienteService.class
+com/tiendaonline/model/Pedido.class
+com/tiendaonline/service/interfaces/IClienteDetallesService.class
+com/tiendaonline/repository/PedidoRepository.class
+com/tiendaonline/controller/PedidoController.class
