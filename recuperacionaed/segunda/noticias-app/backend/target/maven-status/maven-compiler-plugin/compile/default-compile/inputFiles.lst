@@ -1,0 +1,12 @@
+/home/portablepc/Escritorio/recuperacionaed/segunda/noticias-app/backend/src/main/java/com/docencia/pgv/noticias/repo/InMemoryNoticiaRepository.java
+/home/portablepc/Escritorio/recuperacionaed/segunda/noticias-app/backend/src/main/java/com/docencia/pgv/noticias/dominio/NoticiaRequest.java
+/home/portablepc/Escritorio/recuperacionaed/segunda/noticias-app/backend/src/main/java/com/docencia/pgv/noticias/mapper/NoticiaMapper.java
+/home/portablepc/Escritorio/recuperacionaed/segunda/noticias-app/backend/src/main/java/com/docencia/pgv/noticias/rest/NotFoundException.java
+/home/portablepc/Escritorio/recuperacionaed/segunda/noticias-app/backend/src/main/java/com/docencia/pgv/noticias/rest/PublicNoticiasController.java
+/home/portablepc/Escritorio/recuperacionaed/segunda/noticias-app/backend/src/main/java/com/docencia/pgv/noticias/service/NoticiaService.java
+/home/portablepc/Escritorio/recuperacionaed/segunda/noticias-app/backend/src/main/java/com/docencia/pgv/noticias/service/NoticiaServiceImpl.java
+/home/portablepc/Escritorio/recuperacionaed/segunda/noticias-app/backend/src/main/java/com/docencia/pgv/noticias/rest/OpenApiConfig.java
+/home/portablepc/Escritorio/recuperacionaed/segunda/noticias-app/backend/src/main/java/com/docencia/pgv/noticias/NoticiasDualApiJwtApplication.java
+/home/portablepc/Escritorio/recuperacionaed/segunda/noticias-app/backend/src/main/java/com/docencia/pgv/noticias/model/Noticia.java
+/home/portablepc/Escritorio/recuperacionaed/segunda/noticias-app/backend/src/main/java/com/docencia/pgv/noticias/rest/ApiExceptionHandler.java
+/home/portablepc/Escritorio/recuperacionaed/segunda/noticias-app/backend/src/main/java/com/docencia/pgv/noticias/repo/NoticiaRepository.java

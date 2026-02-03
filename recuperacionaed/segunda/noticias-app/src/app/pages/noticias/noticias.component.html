@@ -1,0 +1,49 @@
+<!-- Seccion principal de la lista de tareas -->
+<section class="card">
+    <h2>Lista de noticias</h2>
+
+    <!-- Buscador de noticias -->
+    <div class="search-bar">
+        <input type="text" placeholder="Buscar noticias..." [(ngModel)]="searchTerm" class="input">
+    </div>
+
+    <!-- Muestra un mensaje mientras se cargan los datos -->
+    @if (loading) {
+    <p>Cargando...</p>
+    }
+
+    <!-- Muestra un mensaje si ocurre un error -->
+    @if (errorMsg) {
+    <p class="error">{{ errorMsg }}</p>
+    }
+
+    <!-- Si no hay tareas, mostramos un mensaje indicativo -->
+    @if (!loading && !errorMsg && noticias.length === 0) {
+    <p>No hay noticias todavia.</p>
+    } @else if (!loading && !errorMsg) {
+    <!-- Lista de tareas iterando sobre el array tasks -->
+    <ul class="list">
+        <!-- @for itera sobre la lista filtrada -->
+        @for (n of filteredNoticias; track n.id) {
+        <li class="item">
+            <div>
+                <!-- Mostramos el titulo de la tarea -->
+                <strong>{{ n.titulo }}</strong>
+
+                <!-- Si existe descripcion, la mostramos -->
+                @if (n.contenido) {
+                <div class="muted">{{ n.contenido }}</div>
+                }
+            </div>
+
+            <div class="actions">
+                <!-- Boton para editar la noticia -->
+                <button [routerLink]="['/editar', n.id]" class="btn btn-ghost">Editar</button>
+                <!-- Boton para eliminar la noticia -->
+                <button class="btn btn-ghost" (click)="remove(n.id)">Eliminar</button>
+            </div>
+        </li>
+        }
+    </ul>
+    }
+</section>

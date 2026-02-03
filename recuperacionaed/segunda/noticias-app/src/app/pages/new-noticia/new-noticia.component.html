@@ -1,0 +1,33 @@
+<!-- Seccion para crear una nueva noticia -->
+<section class="card">
+    <h2>Nueva Noticia</h2>
+
+    <!-- Formulario reactivo enlazado con [formGroup] y evento (ngSubmit) -->
+    <form [formGroup]="form" (ngSubmit)="save()">
+        <label>
+            Titulo
+            <!-- Control del formulario enlazado con formControlName -->
+            <input class="input" formControlName="titulo" />
+        </label>
+
+        <!-- Mensaje de error si el campo ha sido tocado y es invalido -->
+        @if (form.controls.titulo.touched && form.controls.titulo.invalid) {
+        <div class="error">
+            El titulo es obligatorio y debe tener al menos 3 caracteres.
+        </div>
+        }
+
+        <label>
+            Contenido
+            <input class="input" formControlName="contenido" />
+        </label>
+
+        <!-- Botones de accion -->
+        <div class="row">
+            <!-- type="submit" envia el formulario -->
+            <button class="btn btn-primary" type="submit">Guardar</button>
+            <!-- type="button" solo ejecuta el evento click -->
+            <button class="btn btn-ghost" type="button" (click)="cancel()">Cancelar</button>
+        </div>
+    </form>
+</section>

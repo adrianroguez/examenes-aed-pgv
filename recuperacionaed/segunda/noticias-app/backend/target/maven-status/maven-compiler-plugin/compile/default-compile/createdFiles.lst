@@ -1,0 +1,13 @@
+com/docencia/pgv/noticias/service/NoticiaService.class
+com/docencia/pgv/noticias/rest/ApiExceptionHandler.class
+com/docencia/pgv/noticias/repo/NoticiaRepository.class
+com/docencia/pgv/noticias/rest/OpenApiConfig.class
+com/docencia/pgv/noticias/rest/PublicNoticiasController.class
+com/docencia/pgv/noticias/model/Noticia.class
+com/docencia/pgv/noticias/NoticiasDualApiJwtApplication.class
+com/docencia/pgv/noticias/dominio/NoticiaRequest.class
+com/docencia/pgv/noticias/rest/NotFoundException.class
+com/docencia/pgv/noticias/mapper/NoticiaMapperImpl.class
+com/docencia/pgv/noticias/mapper/NoticiaMapper.class
+com/docencia/pgv/noticias/service/NoticiaServiceImpl.class
+com/docencia/pgv/noticias/repo/InMemoryNoticiaRepository.class
